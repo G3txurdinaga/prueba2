@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.ik_2dm3.g3_team.Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="69dp">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="101dp" />
+
+        <TextView
+            android:id="@+id/tvtexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/Nombre"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="68dp" />
+
+        <ImageView
+            android:id="@+id/ivimagen"
+            android:layout_width="271dp"
+            android:layout_height="252dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logoarregladonosm" />
+
+        <ImageView
+            android:id="@+id/loadingView"
+            android:layout_width="171dp"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
